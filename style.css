@@ -1,0 +1,342 @@
+#myProgress {
+position: relative;
+width: 100%;
+height: 43px;
+top: -21px;
+background-color: #ddd;
+left: 0px;
+}
+
+#myBar {
+  position: absolute;
+  width: 1%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+    #slider {
+    width: 740px;
+    top: -20px;
+    }
+    #slider .ui-slider-range { background: #008c5a; border-color: #008c5a;
+        }
+    #noise .ui-slider-range { background: #008c5a; border-color: #008c5a;
+        }
+        body {
+            overflow: hidden;
+        }
+        #stbut {
+            height: 100%;
+            position: relative;
+            border-width: 0px 1px 0px 0px;
+            border-style: none;
+            width: 7%;
+            top: 0px;
+            border-right: 1px solid;
+            border-right-color: darkgrey;
+            border-left: 0px none;
+            border-bottom: 0px none;
+            border-top: 0px;
+        } 
+        #noise {
+            position: relative;
+            top: 6px;
+            width: 10%;
+            float: right;
+            left: -22px;
+        }
+        #noisebar {
+            height: 100%;
+            position: relative;
+            border-width: 0px 1px 0px 0px;
+            border-style: none;
+            border-color: -moz-use-text-color;
+            width: 7%;
+            left: 343px;
+            top: -43px;
+            border-right: 0px none;
+            border-left: 1px solid;
+            border-bottom: 0px none;
+            border-top: 0px;
+        }
+.bar {
+    position: relative;
+}
+        .entry {
+                height: 77px;
+                position: relative;
+                padding-bottom: 5px;
+                padding-top: 5px;
+                border-bottom: darkgrey;
+                border-bottom-style: solid;
+                border-bottom-width: thin;
+        }
+.text {
+    position: relative;
+    float: right;
+    padding: 0px;
+}
+.entryelem {
+    position: relative;
+    height: 100%;
+    max-width: 53%;
+}
+        .time {
+            float: left;
+            top: -54px;
+            left: 65px;
+            font-size: 20px;
+        }
+        #searchbar {
+            position: relative;
+            height: 80%;
+            width: 81%;
+            float: left;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-style: solid;
+            border-color: lightgray;
+        }
+.asbtn {
+    position: relative;
+                height: 100%;
+                width: 9%;
+                float: left;;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                border-color: darkgrey;
+                border-style: solid;
+}
+        #searchbtn {
+                position: relative;
+        }
+#addbtn {
+    position: relative;
+    
+}
+.btn {
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkgrey;
+    border-radius: 5px;
+    height: 33px;
+}
+.input {
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkgrey;
+    border-radius: 5px;
+    width: 85%;
+    height: 27px;
+}
+        #playlist-elem {
+                position: relative;
+                background-color: #eee;
+                top: 12px;
+                height: 492px;
+                width: 291px;
+                float: left;
+                overflow-y: scroll;
+        }
+        #pllist {
+            position: relative;
+            width: 100%;
+            text-align: left;
+            font-size: 23px;
+            color: #bbb;
+            
+        }
+        #midframe {
+                position: relative;
+                padding-left: 12px;
+                padding-top: 12px;
+                width: 740px;
+                float: left;
+        }
+        #search {
+                position: relative;
+                top: -66px;
+                height: 33px;
+                float: left;
+                width: 100%;
+        }
+div#comFace {
+    position: relative;
+    height: 492px;
+    width: 336px;
+    top: 12px;
+    float: left;
+    margin-left: 12px;
+    background-color: #eee;
+}
+div#userList {
+    position: relative;
+    height: 15%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: darkgrey;
+    text-align: center;
+}
+.userimg {
+    position: relative;
+    top: 4%;
+    width: 63%;
+}
+.user {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 25%;
+    border-right-style: solid;
+    border-right-color: darkgrey;
+    border-right-width: 1px;
+}
+.cross {
+        position: relative;
+        padding: 0px;
+        top: 10%;
+}
+.imglist {
+    position: relative;
+    max-height: 100%;
+    max-width: 50%;
+    float: left;
+}
+.delete {
+    float: right;
+    position: relative;
+    width: 15%;
+    height: 100%;
+    text-decoration: none;
+    color: red;
+    font-size: 52px;
+}
+.aligner {
+    position: relative;
+    cursor: pointer;
+    float: left;
+    width: 84%;
+    height: 100%;
+}
+div#openHam {
+    position: fixed;
+    right: 0;
+    font-size: 32px;
+}
+div#newPlaylistList {
+    margin-top: 10px;
+}
+.plentry {
+    color: black;
+    font-size: 29px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-color: darkgrey;
+    margin-top: 8px;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+#createpl {
+    width: 46px;
+    text-align: center;
+    overflow: hidden;
+}
+#plclosebtn {
+    position: relative;
+    top: 0px;
+    float: right;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%;
+    border-radius: 8px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
